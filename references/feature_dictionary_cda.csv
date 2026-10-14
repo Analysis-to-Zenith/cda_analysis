@@ -1,0 +1,45 @@
+﻿feature,group,description
+rain_heavy_lag1,기상 시차,1일 전 강한 비(30mm↑)
+rain_mid_lag1,기상 시차,1일 전 보통 비(5~30mm)
+rain_heavy_lag2,기상 시차,2일 전 강한 비(30mm↑)
+rain_mid_lag2,기상 시차,2일 전 보통 비(5~30mm)
+rain_heavy_lag3,기상 시차,3일 전 강한 비(30mm↑)
+rain_mid_lag3,기상 시차,3일 전 보통 비(5~30mm)
+rain_heavy_lag4,기상 시차,4일 전 강한 비(30mm↑)
+rain_mid_lag4,기상 시차,4일 전 보통 비(5~30mm)
+rain_heavy_lag5,기상 시차,5일 전 강한 비(30mm↑)
+rain_mid_lag5,기상 시차,5일 전 보통 비(5~30mm)
+rain_heavy_lag6,기상 시차,6일 전 강한 비(30mm↑)
+rain_mid_lag6,기상 시차,6일 전 보통 비(5~30mm)
+rain_heavy_lag7,기상 시차,7일 전 강한 비(30mm↑)
+rain_mid_lag7,기상 시차,7일 전 보통 비(5~30mm)
+rain_heavy_lead1,위약 전용,"1일 후 강한 비 — 예측 입력 금지, 위약 검정용"
+rain_heavy_lead2,위약 전용,"2일 후 강한 비 — 예측 입력 금지, 위약 검정용"
+rain_heavy_lead3,위약 전용,"3일 후 강한 비 — 예측 입력 금지, 위약 검정용"
+days_since_heavy,기상 시차,"마지막 강한 비 이후 경과일 (0 = 오늘, 최대 8)"
+heavy_event_id,레이블,연속 강한 비 날을 묶은 호우 사건 ID (예: 춘천-H03)
+roll14,매출 수준,직전 14일 log 매출 평균 (당일 제외)
+roll28,매출 수준,직전 28일 log 매출 평균 (당일 제외)
+long_holiday,달력 레이블,휴일 4일 이상 연휴 기간
+long_holiday_pre,달력 레이블,연휴 직전 2일
+long_holiday_post,달력 레이블,연휴 직후 2일
+summer_peak,달력 레이블,하계휴가 집중기 7/25~8/10
+rain_heavy_x_chuncheon,상호작용,강한 비 × 춘천
+rain_mid_x_chuncheon,상호작용,보통 비 × 춘천
+rain_heavy_x_outsider,상호작용,강한 비 × 외지 고객 비중
+unit_code,인코딩,지역 × 업종 정수 코드 (0~29)
+wt_강한 비,인코딩,"기상 유형 원-핫 (강한 비, 기준 = 평상)"
+wt_눈,인코딩,"기상 유형 원-핫 (눈, 기준 = 평상)"
+wt_비,인코딩,"기상 유형 원-핫 (비, 기준 = 평상)"
+wt_폭염,인코딩,"기상 유형 원-핫 (폭염, 기준 = 평상)"
+wt_한파,인코딩,"기상 유형 원-핫 (한파, 기준 = 평상)"
+damage_class_code,레이블,단위 피해 등급 0 영향 없음·증가 / 1 경미·불확실 / 2 확인된 피해 (01 인과 효과)
+eligible,레이블,지원 자격 (대형유통 = 0)
+sens_heavy,취약도 지표 후보 · 민감도,"강한 비 인과 피해율(%, 01 경험적 베이즈 축소) — 클수록 취약"
+sens_mid,취약도 지표 후보 · 민감도,"보통 비 인과 피해율(%, 01 축소)"
+heavy_rain_days_year,취약도 지표 후보 · 노출,"연평균 강한 비(30mm↑) 일수, 2015~2024 (지역 단위)"
+outsider_share,취약도 지표 후보 · 노출,외지 고객 매출 비중 (unit_profile)
+offday_ratio,취약도 지표 후보 · 노출,휴일/평일 일평균 매출 비 (unit_profile)
+indep_share,취약도 지표 후보 · 적응력 부족,독립점포 비중 = 1 − 체인 비중 (상가정보)
+small_scale,취약도 지표 후보 · 적응력 부족,−log(점포당 월매출) — 클수록 작은 점포
+elder_share_customer,취약도 지표 후보 · 적응력 부족,60대 이상 고객 매출 비중
