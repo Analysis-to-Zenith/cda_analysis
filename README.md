@@ -7,7 +7,7 @@
 |---|---|---|---|
 | 1. 가설 기반 인과추론 | `notebooks/01_causal_inference.ipynb` | `ana-causal` | 완료 |
 | 2. 데이터 엔지니어링 | `notebooks/02_feature_engineering.ipynb` | `ana-engin` | 완료 |
-| 3. 논문 근거 기후 피해 예측 | `notebooks/03_damage_prediction.ipynb` | `ana-pred` | 예정 |
+| 3. 논문 근거 기후 피해 예측 | `notebooks/03_damage_prediction.ipynb` | `ana-pred` | 완료 |
 | 4. 논문 근거 취약도 지수 | `notebooks/04_vulnerability_index.ipynb` | `ana-vuln` | 예정 |
 | 5. 논문 근거 지원금 최적화 | `notebooks/05_support_optimization.ipynb` | `ana-opt` | 예정 |
 | 6. 문제점 발굴 | `notebooks/06_problem_discovery.ipynb` | `ana-problem` | 예정 |
